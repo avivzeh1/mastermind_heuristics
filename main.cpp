@@ -19,7 +19,7 @@ int main( int argc, char* argv[] ) {
 
 	char mode;
 	cout << "Press 0 and ENTER for user mode, 1 and ENTER for srategies to play" << endl;
-	code c(5,2,4,2);
+	code c;
 	Game g(c);	
 	lexicStrategy s1;
 	randomStrategy s2(0);
